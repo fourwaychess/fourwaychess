@@ -9,7 +9,7 @@ class CreateUsersTable extends Migration
     /**
      * Run the migrations.
      *
-     * @return void
+     * @return void Returns nothing.
      */
     public function up()
     {
@@ -29,7 +29,7 @@ class CreateUsersTable extends Migration
     /**
      * Reverse the migrations.
      *
-     * @return void
+     * @return void Returns nothing.
      */
     public function down()
     {

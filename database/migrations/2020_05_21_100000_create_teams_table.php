@@ -9,7 +9,7 @@ class CreateTeamsTable extends Migration
     /**
      * Run the migrations.
      *
-     * @return void
+     * @return void Returns nothing.
      */
     public function up()
     {
@@ -25,7 +25,7 @@ class CreateTeamsTable extends Migration
     /**
      * Reverse the migrations.
      *
-     * @return void
+     * @return void Returns nothing.
      */
     public function down()
     {

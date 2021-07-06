@@ -9,7 +9,7 @@ class CreateFailedJobsTable extends Migration
     /**
      * Run the migrations.
      *
-     * @return void
+     * @return void Returns nothing.
      */
     public function up()
     {
@@ -27,7 +27,7 @@ class CreateFailedJobsTable extends Migration
     /**
      * Reverse the migrations.
      *
-     * @return void
+     * @return void Returns nothing.
      */
     public function down()
     {

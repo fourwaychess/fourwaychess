@@ -9,7 +9,7 @@ class CreateTeamInvitationsTable extends Migration
     /**
      * Run the migrations.
      *
-     * @return void
+     * @return void Returns nothing.
      */
     public function up()
     {
@@ -19,7 +19,6 @@ class CreateTeamInvitationsTable extends Migration
             $table->string('email');
             $table->string('role')->nullable();
             $table->timestamps();
-
             $table->unique(['team_id', 'email']);
         });
     }
@@ -27,7 +26,7 @@ class CreateTeamInvitationsTable extends Migration
     /**
      * Reverse the migrations.
      *
-     * @return void
+     * @return void Returns nothing.
      */
     public function down()
     {

@@ -9,7 +9,7 @@ class CreateTeamUserTable extends Migration
     /**
      * Run the migrations.
      *
-     * @return void
+     * @return void Returns nothing.
      */
     public function up()
     {
@@ -19,7 +19,6 @@ class CreateTeamUserTable extends Migration
             $table->foreignId('user_id');
             $table->string('role')->nullable();
             $table->timestamps();
-
             $table->unique(['team_id', 'user_id']);
         });
     }
@@ -27,7 +26,7 @@ class CreateTeamUserTable extends Migration
     /**
      * Reverse the migrations.
      *
-     * @return void
+     * @return void Returns nothing.
      */
     public function down()
     {
